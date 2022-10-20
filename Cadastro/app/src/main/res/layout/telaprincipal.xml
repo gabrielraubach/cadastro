@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txttitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Sistema de Cadastro"
+        android:textSize="40dp" />
+
+    <TextView
+        android:padding="30dp"
+        android:id="@+id/txtintro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttitulo"
+        android:text="Bem vindo ao sistema de cadastro.
+ Esse é um pequeno Software de cadastro de usuários.
+                                Escolha uma opção abaixo:"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/btcadastrar_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtintro"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="30dp"
+        android:text="Cadastrar Usuário"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/bt_listar_usuarios_cadastrados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btcadastrar_usuario"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="Listar usuários cadastrados"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="137dp"
+        android:layout_height="143dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="139dp"
+        android:layout_height="143dp"
+        app:srcCompat="@drawable/cad" />
+
+
+</RelativeLayout>
